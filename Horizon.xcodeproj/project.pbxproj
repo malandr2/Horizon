@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		A8822CDA1B7952800088A614 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8822CD91B7952800088A614 /* main.m */; };
 		A8822CDD1B7952800088A614 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8822CDC1B7952800088A614 /* AppDelegate.m */; };
-		A8822CE01B7952800088A614 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8822CDF1B7952800088A614 /* ViewController.m */; };
-		A8822CE31B7952800088A614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8822CE11B7952800088A614 /* Main.storyboard */; };
 		A8822CE51B7952800088A614 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8822CE41B7952800088A614 /* Images.xcassets */; };
-		A8822CE81B7952800088A614 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8822CE61B7952800088A614 /* LaunchScreen.xib */; };
 		A8822CF41B7952800088A614 /* HorizonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8822CF31B7952800088A614 /* HorizonTests.m */; };
+		A8822D011B7954FF0088A614 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8822D001B7954FF0088A614 /* Default-568h@2x.png */; };
+		A8822D071B7956160088A614 /* HZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8822D061B7956160088A614 /* HZViewController.m */; };
+		A8822D0A1B7A3E620088A614 /* HZOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8822D091B7A3E620088A614 /* HZOverlayView.m */; };
+		A8822D0C1B7A3EE80088A614 /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = A8822D0B1B7A3EE80088A614 /* overlaygraphic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		A8822CD91B7952800088A614 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8822CDB1B7952800088A614 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8822CDC1B7952800088A614 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A8822CDE1B7952800088A614 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A8822CDF1B7952800088A614 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A8822CE21B7952800088A614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8822CE41B7952800088A614 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A8822CE71B7952800088A614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A8822CED1B7952800088A614 /* HorizonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8822CF21B7952800088A614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8822CF31B7952800088A614 /* HorizonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizonTests.m; sourceTree = "<group>"; };
+		A8822D001B7954FF0088A614 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A8822D051B7956160088A614 /* HZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZViewController.h; sourceTree = "<group>"; };
+		A8822D061B7956160088A614 /* HZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZViewController.m; sourceTree = "<group>"; };
+		A8822D081B7A3E620088A614 /* HZOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZOverlayView.h; sourceTree = "<group>"; };
+		A8822D091B7A3E620088A614 /* HZOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZOverlayView.m; sourceTree = "<group>"; };
+		A8822D0B1B7A3EE80088A614 /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		A8822CCB1B7952800088A614 = {
 			isa = PBXGroup;
 			children = (
+				A8822D001B7954FF0088A614 /* Default-568h@2x.png */,
 				A8822CD61B7952800088A614 /* Horizon */,
 				A8822CF01B7952800088A614 /* HorizonTests */,
 				A8822CD51B7952800088A614 /* Products */,
@@ -83,11 +87,10 @@
 			children = (
 				A8822CDB1B7952800088A614 /* AppDelegate.h */,
 				A8822CDC1B7952800088A614 /* AppDelegate.m */,
-				A8822CDE1B7952800088A614 /* ViewController.h */,
-				A8822CDF1B7952800088A614 /* ViewController.m */,
-				A8822CE11B7952800088A614 /* Main.storyboard */,
-				A8822CE41B7952800088A614 /* Images.xcassets */,
-				A8822CE61B7952800088A614 /* LaunchScreen.xib */,
+				A8822D051B7956160088A614 /* HZViewController.h */,
+				A8822D061B7956160088A614 /* HZViewController.m */,
+				A8822D081B7A3E620088A614 /* HZOverlayView.h */,
+				A8822D091B7A3E620088A614 /* HZOverlayView.m */,
 				A8822CD71B7952800088A614 /* Supporting Files */,
 			);
 			path = Horizon;
@@ -96,6 +99,8 @@
 		A8822CD71B7952800088A614 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A8822D0B1B7A3EE80088A614 /* overlaygraphic.png */,
+				A8822CE41B7952800088A614 /* Images.xcassets */,
 				A8822CD81B7952800088A614 /* Info.plist */,
 				A8822CD91B7952800088A614 /* main.m */,
 			);
@@ -199,9 +204,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8822CE31B7952800088A614 /* Main.storyboard in Resources */,
-				A8822CE81B7952800088A614 /* LaunchScreen.xib in Resources */,
 				A8822CE51B7952800088A614 /* Images.xcassets in Resources */,
+				A8822D011B7954FF0088A614 /* Default-568h@2x.png in Resources */,
+				A8822D0C1B7A3EE80088A614 /* overlaygraphic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8822CE01B7952800088A614 /* ViewController.m in Sources */,
+				A8822D071B7956160088A614 /* HZViewController.m in Sources */,
+				A8822D0A1B7A3E620088A614 /* HZOverlayView.m in Sources */,
 				A8822CDD1B7952800088A614 /* AppDelegate.m in Sources */,
 				A8822CDA1B7952800088A614 /* main.m in Sources */,
 			);
@@ -242,25 +248,6 @@
 			targetProxy = A8822CEE1B7952800088A614 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A8822CE11B7952800088A614 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8822CE21B7952800088A614 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A8822CE61B7952800088A614 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8822CE71B7952800088A614 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A8822CF51B7952800088A614 /* Debug */ = {

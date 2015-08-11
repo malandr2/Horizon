@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "HZViewController.h"
 
 @interface AppDelegate ()
+
+@property (strong, nonatomic) UIImagePickerController *picker;
 
 @end
 
@@ -17,6 +20,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    HZViewController *viewController = [[HZViewController alloc] init];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = viewController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.tintColor = [UIColor blackColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
